@@ -5,12 +5,12 @@ while (userchoice !=='skincare' && userchoice !== 'makeup'){
    }
    var userChoose;
    if (userchoice === 'skincare'){
-userChoose ='<img scr ="https://tse1.mm.bing.net/th?id=OIP.I8MQC6hbOEp4b8XlUzufZQHaEK&pid=Api&P=0&w=290&h=164"/>';
-//document.write(image);
+userChoose ='<img src ="http://ghk.h-cdn.co/assets/16/03/1600x800/landscape-1453252591-skincare-woman.jpg"/>';
+
   }
   else if (userchoice === 'makeup'){
-var imge2 ='<img scr ="https://tse1.mm.bing.net/th?id=OIP.I8MQC6hbOEp4b8XlUzufZQHaEK&pid=Api&P=0&w=290&h=164"/>';
-//document.write(image2);
+ userChoose='<img src ="https://tse1.mm.bing.net/th?id=OIP.I8MQC6hbOEp4b8XlUzufZQHaEK&pid=Api&P=0&w=290&h=164"/>';
+ 
   }
   var imagesNumber= prompt('How many image do you want???');
 
