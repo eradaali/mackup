@@ -16,7 +16,3 @@ userChoose ='<img src ="http://ghk.h-cdn.co/assets/16/03/1600x800/landscape-1453
 
 for(var i=0 ; i < imagesNumber; i++){
   document.write(userChoose);}
-
-
-
-
