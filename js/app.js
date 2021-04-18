@@ -16,3 +16,19 @@ userChoose ='<img src ="http://ghk.h-cdn.co/assets/16/03/1600x800/landscape-1453
 
 for(var i=0 ; i < imagesNumber; i++){
   document.write(userChoose);}
+
+function askUser (product){
+var ask = prompt('do you like '+ product + '?');
+console.log(ask);
+return ask;
+  }
+  askUser('mackup');
+  askUser('skincare');
+ 
+var userResponse=function(){
+  var responeTo =prompt('Thanks');
+console.log(responeTo);
+}
+userResponse();
+
+ 
