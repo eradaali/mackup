@@ -22,11 +22,15 @@ var ask = prompt('do you like '+ product + '?');
 console.log(ask);
 return ask;
   }
-  askUser('mackup');
-  askUser('skincare');
+
+  var answer1 =askUser('mackup');
+ var answer2= askUser('skincare');
+ console.log(answer1);
+ console.log(answer2);
  
 var userResponse=function(){
   var responeTo =prompt('Thanks');
+  alert('thanks');
 console.log(responeTo);
 }
 userResponse();
